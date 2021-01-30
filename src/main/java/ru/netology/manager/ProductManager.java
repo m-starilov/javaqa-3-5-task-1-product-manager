@@ -6,8 +6,6 @@ import ru.netology.domain.Smartphone;
 import ru.netology.repository.ProductRepository;
 
 public class ProductManager {
-    private Book book;
-    private Smartphone smartphone;
     private ProductRepository repository;
 
     public ProductManager(ProductRepository repository) {
